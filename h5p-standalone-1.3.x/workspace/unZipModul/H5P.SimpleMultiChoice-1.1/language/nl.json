@@ -15,10 +15,10 @@
       ]
     },
     {
-      "label": "Alternatieve antwoorden",
-      "entity": "Alternatief",
+      "label": "Antwoordopties",
+      "entity": "Optie",
       "field": {
-        "label": "Alternatief",
+        "label": "Optie",
         "fields": [
           {
             "label": "Tekst"
@@ -27,11 +27,11 @@
             "label": "Feedback",
             "fields": [
               {
-                "label": "Getoond bericht als antwoord is geselecteerd",
+                "label": "Getoonde boodschap wanneer antwoord geselecteerd is",
                 "description": "Boodschap verschijnt onder het antwoord na klikken op \"Doorgaan\" wanneer antwoord geselecteerd is."
               },
               {
-                "label": "Getoond bericht als het antwoord niet is geselecteerd",
+                "label": "Getoonde boodschap wanneer antwoord niet geselecteerd is",
                 "description": "Boodschap verschijnt onder het antwoord na klikken op \"Doorgaan\" wanneer antwoord niet geselecteerd is."
               }
             ]

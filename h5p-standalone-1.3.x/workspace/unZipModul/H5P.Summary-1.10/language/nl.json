@@ -3,7 +3,7 @@
     {
       "label": "Inleidende tekst",
       "default": "Kies de juiste bewering.",
-      "description": "Wordt boven de samenvattingstaak getoond."
+      "description": "Deze zal boven de samenvattende taak worden weergegeven."
     },
     {
       "widgets": [
@@ -47,7 +47,7 @@
             }
           ],
           "label": "Definieer aangepaste feedback voor elke scorereeks",
-          "description": "Druk op de \"Voeg scorereeks\"-knop om zoveel reeksen toe te voegen als nodig. Voorbeeld: 0-20% Onvoldoende, 21-91% Gemiddelde score, 91-100% Uitstekende score!",
+          "description": "Druk op de knop \"Voeg scorereeks toe\" om zoveel reeksen toe te voegen als nodig is. Voorbeeld: 0-20% Onvoldoende score, 21-91% Gemiddelde score, 91-100% Uitstekende score!",
           "entity": "reeks",
           "field": {
             "fields": [
@@ -57,7 +57,7 @@
               {},
               {
                 "label": "Feedback voor de gedefinieerde scorereeks",
-                "placeholder": "Vul de feedback in"
+                "placeholder": "Vul de aangepaste feedback in"
               }
             ]
           }
@@ -65,48 +65,48 @@
       ]
     },
     {
-      "label": "De getoonde tekst vóór het aantal opgeloste beweringen van de samenvattingstaak.",
+      "label": "De getoonde tekst vóór het aantal opgeloste beweringen van het taakoverzicht.",
       "default": "Voortgang:",
-      "description": "Wordt getoond boven de beweringen. Voorbeeld: 'Voortgang: 2/5'"
+      "description": "Dit wordt getoond boven de beweringen. Voorbeeld: 'Voortgang: 2/5'"
     },
     {
-      "label": "Tekst getoond vóór het aantal onjuiste beweringen van de samenvattingstaak.",
+      "label": "De getoonde tekst vóór het aantal onjuiste beweringen van het taakoverzicht.",
       "default": "Onjuiste antwoorden:",
-      "description": "Wordt getoond boven de beweringen. Voorbeeld: 'Onjuiste antwoorden: 4'"
+      "description": "Dit wordt getoond boven de beweringen. Voorbeeld: 'Onjuiste antwoorden: 4'"
     },
     {
       "label": "Koptekst feedback van de samenvatting",
       "default": "Je resultaat",
-      "description": "Wordt getoond boven de feedback van de samenvatting."
+      "description": "Dit wordt getoond boven de feedback van de samenvatting."
     },
     {
-      "label": "Schermlezer tekst voor het juiste antwoord",
+      "label": "Readspeaker tekst voor het juiste antwoord",
       "default": "Juist."
     },
     {
-      "label": "Schermlezer tekst voor informeren over onjuist antwoord",
+      "label": "Readspeaker tekst voor informeren over onjuist antwoord",
       "default": "Onjuist! Probeer het opnieuw."
     },
     {
-      "label": "Schermlezer label voor onjuist antwoord",
+      "label": "Readspeaker label voor onjuist antwoord",
       "default": "Onjuist"
     },
     {
-      "label": "Label van lijst met juiste antwoorden",
+      "label": "Label van de lijst van juiste antwoorden",
       "default": "Juiste antwoorden."
     },
     {
-      "label": "Label voor \"Toon tip\"-knop",
+      "label": "Label voor de toon tip-knop",
       "default": "Toon tip"
     },
     {
-      "label": "Tekstuele weergave van de scorebalk voor de gebruikers van de schermlezer",
-      "description": ":num en :total zijn speciale trefwoorden die worden bijgewerkt met de echte waarden",
+      "label": "Tekstuele weergave van de scorebalk voor de gebruikers van de readspeaker",
+      "description": ":num en :total zijn speciale trefwoorden die programmatisch worden bijgewerkt",
       "default": "Je hebt :num van de :total punten"
     },
     {
-      "label": "De tekst die gebruikt wordt door schermlezers om de voortgang te communiceren",
-      "description": ":num en :total zijn speciale trefwoorden die worden bijgewerkt met de echte waarden",
+      "label": "De tekst die gebruikt wordt door readspeakers om de voortgang te communiceren",
+      "description": ":num en :total zijn speciale trefwoorden die programmatisch worden bijgewerkt",
       "default": "Voortgang :num van :total"
     }
   ]

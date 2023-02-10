@@ -15,7 +15,7 @@
           ]
         },
         {
-          "label": "Ir A",
+          "label": "Ir a",
           "description": "El tiempo destino a donde será llevado el usuario que presione el hotspot. Ingresar código de tiempo en el formato M:SS."
         },
         {
@@ -58,7 +58,7 @@
               "label": "Circular"
             },
             {
-              "label": "Rectángulo Redondeado"
+              "label": "Rectángulo redondeado"
             }
           ]
         },
@@ -78,8 +78,8 @@
       "label": "Textos",
       "fields": [
         {
-          "label": "Texto Alternativo",
-          "description": "Describir el sujeto que el hotspot cubre . Usado para lectores de texto en voz alta",
+          "label": "Texto alternativo",
+          "description": "Describa el asunto que cubre el hotspot. Usado para lectores de voz",
           "placeholder": "Una manzana sobre una mesa"
         },
         {

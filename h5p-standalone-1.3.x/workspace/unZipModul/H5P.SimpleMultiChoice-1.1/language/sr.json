@@ -1,38 +1,38 @@
 {
   "semantics": [
     {
-      "label": "Питање"
+      "label": "Question"
     },
     {
-      "label": "Тип вишеструког избора",
+      "label": "Multiple choice type",
       "options": [
         {
-          "label": "Више одговора"
+          "label": "Multiple answers"
         },
         {
-          "label": "Појединачни одговор"
+          "label": "Single answer"
         }
       ]
     },
     {
-      "label": "Алтернативе одговора",
-      "entity": "Алтернативе",
+      "label": "Answer alternatives",
+      "entity": "Alternative",
       "field": {
-        "label": "Алтернативе",
+        "label": "Alternative",
         "fields": [
           {
-            "label": "Текст"
+            "label": "Text"
           },
           {
-            "label": "Повратна информација",
+            "label": "Feedback",
             "fields": [
               {
-                "label": "Порука се приказује ако је одабран одговор",
-                "description": "Порука ће се појавити испод одговора на \"настави\" ако је одабран овај одговор."
+                "label": "Message displayed if answer is selected",
+                "description": "Message will appear below the answer on \"continue\" if this answer is selected."
               },
               {
-                "label": "Порука се приказује ако одговор није изабран",
-                "description": "Порука ће се појавити испод одговора на \"настави\" ако овај одговор није изабран."
+                "label": "Message displayed if answer is not selected",
+                "description": "Message will appear below the answer on \"continue\" if this answer is not selected."
               }
             ]
           }

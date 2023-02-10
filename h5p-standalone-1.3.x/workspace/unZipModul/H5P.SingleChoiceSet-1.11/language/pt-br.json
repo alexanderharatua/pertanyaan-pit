@@ -2,7 +2,7 @@
   "semantics": [
     {
       "label": "Lista de questões",
-      "entity": "questão",
+      "entity": "question",
       "widgets": [
         {
           "label": "Padrão"
@@ -19,7 +19,7 @@
           },
           {
             "label": "Alternativas - a primeira alternativa é a correta.",
-            "entity": "resposta",
+            "entity": "answer",
             "field": {
               "label": "Alternativa"
             }
@@ -28,7 +28,7 @@
       }
     },
     {
-      "label": "Feedback Geral",
+      "label": "Feedback geral",
       "fields": [
         {
           "widgets": [
@@ -36,9 +36,9 @@
               "label": "Padrão"
             }
           ],
-          "label": "Defina um feedback customizado para qualquer faixa de pontuação",
-          "description": "Clique no botão \"Adicionar faixa\" para adicionar quantos intervalos de pontuação forem necessárias. Exemplo: 0-20% Pontuação ruim, 21-91% Pontuação média, 91-100% Ótima pontuação!",
-          "entity": "faixa",
+          "label": "Defina feedback customizado para qualquer faixa de pontuação",
+          "description": "Clique no botão \"Adicionar faixa\" para adicionar quantas faixas de pontuação forem necessárias. Exemplo: 0-20% Pontuação ruim, 21-91% Pontuação média, 91-100% Ótima pontuação!",
+          "entity": "range",
           "field": {
             "fields": [
               {
@@ -59,45 +59,45 @@
       "fields": [
         {
           "label": "Continuar automaticamente",
-          "description": "Vai para a próxima questão automaticamente quando uma alternativa é selecionada"
+          "description": "vai para a próxima questão automaticamente quando uma alternativa é selecionada"
         },
         {
-          "label": "Tempo limite para respostas corretas",
+          "label": "Tempo limite em respostas corretas",
           "description": "Valor em milisegundos"
         },
         {
-          "label": "Tempo limite para respostas incorretas",
+          "label": "Tempo limite em respostas incorretas",
           "description": "Valor em milisegundos"
         },
         {
-          "label": "Ativar efeitos sonoros"
+          "label": "Habilitar efeitos sonoros"
         },
         {
-          "label": "Ativar o botão Tentar Novamente"
+          "label": "Habilitar botão Tentar novamente"
         },
         {
-          "label": "Ativar o botão Mostrar Solução"
+          "label": "Habilitar botão Mostrar solução"
         },
         {
-          "label": "Porcentagem para aprovação",
-          "description": "Porcentagem da pontuação total necessária para passar no teste."
+          "label": "Porcentagem de aprovação",
+          "description": "Porcentagem da pontuação total requerida para passar no teste."
         }
       ]
     },
     {
-      "label": "Localizar conjunto de escolha única",
+      "label": "Localização de Perguntas de escolha única",
       "fields": [
         {
-          "label": "Rótulo para o botão \"Próximo\"",
+          "label": "Rótulo para o botão \"Próxima\"",
           "default": "Próxima questão"
         },
         {
-          "label": "Rótulo para o botão \"Mostrar Solução\"",
-          "default": "Mostrar Solução"
+          "label": "Rótulo para o botão \"Mostrar solução\"",
+          "default": "Mostrar solução"
         },
         {
-          "label": "Rótulo para o botão \"Tentar Novamente\"",
-          "default": "Tentar Novamente"
+          "label": "Rótulo para botão \"Tentar novamente\"",
+          "default": "Tentar novamente"
         },
         {
           "label": "Título para a visualização da solução",
@@ -112,8 +112,8 @@
           "default": "Incorreto!"
         },
         {
-          "label": "Rótulo para o botão \"Mudo\" , para desativar som do feedback",
-          "default": "Desativar o som do feedback"
+          "label": "Rótulo para o botão \"Mutar\" , para desativar som do feedback",
+          "default": "Mutar sons do feedback"
         },
         {
           "label": "Rótulo para o botão \"Fechar\"",
@@ -125,21 +125,21 @@
           "default": "Slide :num de :total"
         },
         {
-          "label": "Representação textual da barra de pontuação para aqueles que utilizam um leitor de tela",
-          "default": "Você conseguiu :num de :total pontos possíveis"
+          "label": "Representação textual da barra de pontuação para aqueles que usam leitores de tela",
+          "default": "Você marcou :num de :total pontos"
         },
         {
-          "label": "Rótulo para o número da questão na lista de soluções",
-          "description": "Anuncia o índice de questões atuais na lista de soluções, as variáveis são :num",
-          "default": "Questão :num"
+          "label": "Label for the question number in the solution list",
+          "description": "Announces current question index in solution list, variables are :num",
+          "default": "Question :num"
         },
         {
-          "label": "Descrição da tecnologia de assistência para o botão \"Mostrar solução\"",
-          "default": "Mostrar a solução. A tarefa será marcada com sua solução correta."
+          "label": "Assistive technology description for \"Show Solution\" button",
+          "default": "Show the solution. The task will be marked with its correct solution."
         },
         {
-          "label": "Descrição da tecnologia de assistência para o botão \"Tentar Novamente\"",
-          "default": "Tente realizar a tarefa novamente. Reinicialize todas as respostas e recomece."
+          "label": "Assistive technology description for \"Retry\" button",
+          "default": "Retry the task. Reset all responses and start the task over again."
         }
       ]
     }
